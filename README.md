@@ -1,20 +1,61 @@
-# React + Vite
+🍽️ OneBill – Food Delivery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A Smart Multi-Restaurant Food Ordering Experience
 
-Currently, two official plugins are available:
+📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+OneBill is a food delivery web application built using React and Vite. It allows users to explore restaurants, browse food menus, add items from multiple restaurants to a shared cart, and view a combined bill through a single checkout experience.
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse multiple restaurants.
+- Search and explore food items.
+- Restaurant category filtering.
+- Nearby restaurant discovery.
+- Shared multi-restaurant cart.
+- Restaurant-wise order grouping.
+- Combined checkout.
+- GST and delivery fee estimation.
+- Demo order confirmation.
 
-## Expanding the Oxlint configuration
+🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- JavaScript
+- Vite
+- CSS
+- Lucide React
 
+🚀 Getting Started
 
-## Additional Jodimetla-area demo restaurants
-This version adds Sri Suruchi Restaurant, Parampara Family Restaurant, Fusion Flavours, Broz The Kitchen, and Zen-G Mini Restaurant to the restaurant list and shared cart. Their menu items/prices are illustrative demo data. The added coordinates are approximate sample pins, not verified delivery coordinates; verify each branch location before using real distance/delivery decisions.
+1. Clone the repository
+
+git clone YOUR_REPOSITORY_URL
+
+2. Navigate to the project folder
+
+cd OneBill
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+📍 Demo Restaurant Locations
+
+Includes sample restaurant listings around the Jodimetla area. Restaurant coordinates and menu prices are illustrative demo data.
+
+🎯 Project Objective
+
+To simplify food ordering by allowing customers to combine food selections from multiple restaurants into one convenient checkout experience.
+
+👩‍💻 Author
+
+Developed as an academic project.
+
+---
+
+OneBill – One Cart, One Checkout!
